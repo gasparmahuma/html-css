@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+            box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.200);
+        }
+
+        td {
+            border: 2px solid black;
+            padding: 8px;
+            text-align: center;
+            box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.200);
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2" style="background-color: lightgray;">3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="background-color: lightgray;">8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="background-color: lightgray;">10</td>
+            <td colspan="2" style="background-color: lightgray;">11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
+</body>
+</html>
