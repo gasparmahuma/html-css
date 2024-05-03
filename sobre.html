@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="assets/estilos/style.css">
+</head>
+<body onresize="mudouTamanho()">
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+    <main>
+        
+    </main>
+    <footer>
+        <div id="lado-esquerdo">
+            <p>Site desenvolvido por <a href="https://www.instagram.com/mahuma___" target="_blank" rel="external">Gaspar Mahuma</a></p>
+            <p>&copy; 2024</p>
+            <p>Todos os direitos reservados</p>
+            <hr>
+            <p><a href="exercicios.html">Exercícios</a></p>
+            <p><a href="desafios.html">Desafios</a></p>
+            <p><a href="projectos.html">Projectos</a></p>
+        </div>
+        <hr>
+        <div id="lado-direito">
+            <p><a href="https://www.instagram.com/mahuma___" target="_blank">Instagram</a></p>
+            <p><a href="https://www.twitter.com/mahuma___" target="_blank">X</a></p>
+            <p><a href="https://www.youtube.com/@mahuma___" target="_blank">YouTube</a></p>
+            <p><a href="https://www.github.com/gasparmahuma" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
