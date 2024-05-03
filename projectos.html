@@ -7,11 +7,12 @@
     <title>Curso de HTML5+CSS3 do CursoemVideo | Exercícios</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="assets/estilos/style.css">
+    <link rel="stylesheet" href="assets/estilos/media-query.css">
 </head>
 <body onresize="mudouTamanho()">
     <header>
         <h1>Curso de HTML5 e CSS3</h1>
-        <p>Curso de HTML5 e CSS3 do Curso em Vídeo orientado pelo professor <a href="https://www.instagram.com/gustavoguanabara" target="_blank" rel="external">Gustavo Guanabara</a>.</p>
+        <p>Curso de HTML5 e CSS3 do <a href="https://www.cursoemvideo.com" target="_blank" rel="external">Curso em Vídeo</a> orientado pelo professor <a href="https://www.instagram.com/gustavoguanabara" target="_blank" rel="external">Gustavo Guanabara</a>.</p>
     </header>
     <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
     <menu id="menu">
@@ -20,12 +21,11 @@
             <li><a href="exercicios.html" target="_self" rel="next">Exercícios</a></li>
             <li><a href="desafios.html" target="_self">Desafios</a></li>
             <li><a href="projectos.html" target="_self">Projectos</a></li>
-            <li><a href="sobre.html" target="_self" rel="next">Sobre</a></li>
         </ul>
     </menu>
-    <main>
+    <main id="margin-projecto">
         <h1>Mini-projectos</h1>
-        <ul>
+        <ul id="lista-projecto">
             <li>Projecto Android</li>
                 <ul>
                     <li class="sub-exercicio"><a href="projectos/projecto-android/index.html" target="_blank">index &#x1F517;</a></li>

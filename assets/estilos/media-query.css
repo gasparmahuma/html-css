@@ -12,12 +12,69 @@ Extra large screens, TV – 1201px, and more.
 
 */
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (min-width: 768px) {
+    span#burger {
+        display: none;
+    }
+
     menu {
+        
         display: block;
+        text-align: center;
+        padding: 5px;
+        
     }
 
     menu > ul > li {
         display: inline-block;
+        
+    }
+
+    menu a {
+        border: 0px;
+        padding: 5px 40px;
+        border-radius: 10px;
+        
+        
+    }
+
+    main {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 800px;
+        padding-bottom: 100px;
+    }
+
+    main div#lista-esquerda {
+        float: left;
+        margin-right: 250px;
+    }
+
+    main div#lista-direita {
+        float: right;
+    }
+
+    main ul#lista-projecto {
+        columns: 2;
+    }
+
+    hr {
+        display: none;
+    }
+
+    footer {
+        width: 500px;
+        margin: auto;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+    }
+
+    footer div#lado-esquerdo {
+        float: left;
+    }
+
+    footer div#lado-direito {
+        float: right;
     }
 }

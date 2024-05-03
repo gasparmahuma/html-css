@@ -7,11 +7,12 @@
     <title>Curso de HTML5+CSS3 do CursoemVideo | Exercícios</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="assets/estilos/style.css">
+    <link rel="stylesheet" href="assets/estilos/media-query.css">
 </head>
 <body onresize="mudouTamanho()">
     <header>
         <h1>Curso de HTML5 e CSS3</h1>
-        <p>Curso de HTML5 e CSS3 do Curso em Vídeo orientado pelo professor <a href="https://www.instagram.com/gustavoguanabara" target="_blank" rel="external">Gustavo Guanabara</a>.</p>
+        <p>Curso de HTML5 e CSS3 do <a href="https://www.cursoemvideo.com" target="_blank" rel="external">Curso em Vídeo</a> orientado pelo professor <a href="https://www.instagram.com/gustavoguanabara" target="_blank" rel="external">Gustavo Guanabara</a>.</p>
     </header>
     <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
     <menu id="menu">
@@ -20,70 +21,73 @@
             <li><a href="exercicios.html" target="_self" rel="next">Exercícios</a></li>
             <li><a href="desafios.html" target="_self">Desafios</a></li>
             <li><a href="projectos.html" target="_self" rel="next">Projectos</a></li>
-            <li><a href="sobre.html" target="_self" rel="next">Sobre</a></li>
         </ul>
     </menu>
     <main>
         <h1>Desafios Resolvidos</h1>
         <ul>
-            <li>d001</li>
-                <ul>
-                    <li class="sub-exercicio"><a href="desafios/d001/index.html" target="_blank">index &#x1F517;</a></li>
-                </ul>
-            <li>d002</li>
-                <ul>
-                    <li class="sub-exercicio"><a href="desafios/d002/index.html" target="_blank">index &#x1F517;</a></li>
-                </ul>
-            <li>d003</li>
-                <ul>
-                    <li class="sub-exercicio"><a href="desafios/d003/index.html" target="_blank">index &#x1F517;</a></li>
-                </ul>
-            <li>d004</li>
-                <ul>
-                    <li class="sub-exercicio"><a href="desafios/d004/index.html" target="_blank">index &#x1F517;</a></li>
-                </ul>
-            <li>d005</li>
-                <ul>
-                    <li class="sub-exercicio"><a href="desafios/d005/index.html" target="_blank">index &#x1F517;</a></li>
-                </ul>
-            <li>d006</li>
-                <ul>
-                    <li class="sub-exercicio"><a href="desafios/d007/index.html" target="_blank">index &#x1F517;</a></li>
-                </ul>
-            <li>d007</li>
-                <ul>
-                    <li class="sub-exercicio"><a href="desafios/d007/index.html" target="_blank">index &#x1F517;</a></li>
-                </ul>
-            <li>d008</li>
-                <ul>
-                    <li class="sub-exercicio"><a href="desafios/d008/index.html" target="_blank">index &#x1F517;</a></li>
-                </ul>
-            <li>d009</li>
-                <ul>
-                    <li class="sub-exercicio"><a href="desafios/d009/index.html" target="_blank">index &#x1F517;</a></li>
-                </ul>
-            <li>d010</li>
-                <ul>
-                    <li class="sub-exercicio"><a href="desafios/d010/android.html" target="_blank">android &#x1F517;</a></li>
-                    <li class="sub-exercicio"><a href="desafios/d010/responsivo.html" target="_blank">responsivo &#x1F517;</a></li>
-                </ul>
-            <li>d011</li>
-                <ul>
-                    <li class="sub-exercicio"><a href="desafios/d011/index.html" target="_blank">astronauta &#x1F517;</a></li>
-                </ul>
-            <li>d012</li>
-                <ul>
-                    <li class="sub-exercicio"><a href="desafios/d012/index.html" target="_blank">index &#x1F517;</a></li>
-                </ul>
-            <li>d013</li>
-                <ul>
-                    <li class="sub-exercicio"><a href="desafios/d013/tabela001.html" target="_blank">tabela001 &#x1F517;</a></li>
-                    <li class="sub-exercicio"><a href="desafios/d013/tabela002.html" target="_blank">tabela002 &#x1F517;</a></li>
-                </ul>
-            <li>d014</li>
-                <ul>
-                    <li class="sub-exercicio"><a href="desafios/d014/index.html" target="_blank">index &#x1F517;</a></li>
-                </ul>
+            <div id="lista-esquerda">
+                <li>d001</li>
+                    <ul>
+                        <li class="sub-exercicio"><a href="desafios/d001/index.html" target="_blank">index &#x1F517;</a></li>
+                    </ul>
+                <li>d002</li>
+                    <ul>
+                        <li class="sub-exercicio"><a href="desafios/d002/index.html" target="_blank">index &#x1F517;</a></li>
+                    </ul>
+                <li>d003</li>
+                    <ul>
+                        <li class="sub-exercicio"><a href="desafios/d003/index.html" target="_blank">index &#x1F517;</a></li>
+                    </ul>
+                <li>d004</li>
+                    <ul>
+                        <li class="sub-exercicio"><a href="desafios/d004/index.html" target="_blank">index &#x1F517;</a></li>
+                    </ul>
+                <li>d005</li>
+                    <ul>
+                        <li class="sub-exercicio"><a href="desafios/d005/index.html" target="_blank">index &#x1F517;</a></li>
+                    </ul>
+                <li>d006</li>
+                    <ul>
+                        <li class="sub-exercicio"><a href="desafios/d007/index.html" target="_blank">index &#x1F517;</a></li>
+                    </ul>
+                <li>d007</li>
+                    <ul>
+                        <li class="sub-exercicio"><a href="desafios/d007/index.html" target="_blank">index &#x1F517;</a></li>
+                    </ul>
+                <li>d008</li>
+                    <ul>
+                        <li class="sub-exercicio"><a href="desafios/d008/index.html" target="_blank">index &#x1F517;</a></li>
+                    </ul>
+            </div>
+            <div id="lado-direito">
+                <li>d009</li>
+                    <ul>
+                        <li class="sub-exercicio"><a href="desafios/d009/index.html" target="_blank">index &#x1F517;</a></li>
+                    </ul>
+                <li>d010</li>
+                    <ul>
+                        <li class="sub-exercicio"><a href="desafios/d010/android.html" target="_blank">android &#x1F517;</a></li>
+                        <li class="sub-exercicio"><a href="desafios/d010/responsivo.html" target="_blank">responsivo &#x1F517;</a></li>
+                    </ul>
+                <li>d011</li>
+                    <ul>
+                        <li class="sub-exercicio"><a href="desafios/d011/index.html" target="_blank">astronauta &#x1F517;</a></li>
+                    </ul>
+                <li>d012</li>
+                    <ul>
+                        <li class="sub-exercicio"><a href="desafios/d012/index.html" target="_blank">index &#x1F517;</a></li>
+                    </ul>
+                <li>d013</li>
+                    <ul>
+                        <li class="sub-exercicio"><a href="desafios/d013/tabela001.html" target="_blank">tabela001 &#x1F517;</a></li>
+                        <li class="sub-exercicio"><a href="desafios/d013/tabela002.html" target="_blank">tabela002 &#x1F517;</a></li>
+                    </ul>
+                <li>d014</li>
+                    <ul>
+                        <li class="sub-exercicio"><a href="desafios/d014/index.html" target="_blank">index &#x1F517;</a></li>
+                    </ul>
+            </div>
         </ul>
     </main>
     <footer>

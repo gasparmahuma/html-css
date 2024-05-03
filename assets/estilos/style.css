@@ -16,15 +16,6 @@
     --cor5: #D9D9D9;
 }
 
-body {
-    width: 100vw;
-    height: 100vw;
-}
-
-body {
-    background-color: var(--cor1);
-}
-
 header {
     background-color: var(--cor2);
     padding: 10px;
@@ -53,6 +44,7 @@ header a:hover {
 }
 
 span#burger {
+    background-color: var(--cor1);
     display: block;
     color: #F2F2F2;
     text-align: center;
@@ -87,17 +79,19 @@ menu a:hover {
 }
 
 main {
-    background-color: var(--cor3);
+    background-color: #ffffff;
     padding: 15px;
-    /* width: 80%; */
     margin: auto;
+    margin-bottom: 50px;
     text-indent: 15px;
     text-align: justify;
-    /* border-radius: 5px; */
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.294);
     line-height: 30px;
     color: #000000;
     font-size: 1.2em;
+}
+
+main h1 {
+    padding: 10px;
 }
 
 main ul {
@@ -109,11 +103,13 @@ main li {
 }
 
 main li.sub-exercicio {
+    list-style-type: '\└\00A0\00A0';
     text-indent: 50px;
 }
 
 main li.mq {
     text-indent: 80px;
+    list-style-type: '\└\00A0\00A0'
 }
 
 main a {
@@ -126,8 +122,12 @@ main a:hover {
     color: #88898C;
 }
 
+main#margin-projecto {
+    margin-bottom: 210px;
+}
+
 footer {
-    background-color: var(--cor5);
+    background-color: #ffffff;
     text-align: center;
 }
 
