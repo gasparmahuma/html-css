@@ -12,7 +12,8 @@ Extra large screens, TV – 1201px, and more.
 
 */
 
-@media screen and (min-width: 481px) and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+
     span#burger {
         display: none;
     }
@@ -34,8 +35,6 @@ Extra large screens, TV – 1201px, and more.
         border: 0px;
         padding: 5px 40px;
         border-radius: 10px;
-        
-        
     }
 
     main {
